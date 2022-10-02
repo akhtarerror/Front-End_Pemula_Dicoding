@@ -29,21 +29,21 @@
         <h2 class="title text-center mt-3">Tambah Buku</h2>
         <form id="formDataBuku" class="mb-3" action="" method="post">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <label for="judul" class="form-label">Judul</label>
-              <input type="text" class="form-control" name="judul" id="judul" placeholder="">
+              <input type="text" class="form-control" name="judul" id="judul" placeholder="" required>
             </div>
 
-            <div class="col">
+            <div class="col-md-6">
               <label for="penulis" class="form-label">Penulis</label>
-              <input type="text" class="form-control" name="penulis" id="penulis" placeholder="">
+              <input type="text" class="form-control" name="penulis" id="penulis" placeholder="" required>
             </div>
           </div>
 
           <div class="row">
             <div class="col">
               <label for="tahun" class="form-label">Tahun</label>
-              <input type="number" class="form-control" name="tahun" id="tahun" placeholder="">
+              <input type="number" class="form-control" name="tahun" id="tahun" placeholder="" required>
             </div>
           </div>
           <div class="form-check mt-3">
@@ -55,13 +55,13 @@
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-md-6">
           <h2 class="title">Buku Belum Dibaca</h2>
           <div id="belumDibaca">
           </div>
 
         </div>
-        <div class="col">
+        <div class="col-md-6">
           <h2 class="title">Buku Sudah Dibaca</h2>
           <div id="sudahDibaca">
           </div>
